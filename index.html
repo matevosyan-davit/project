@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Davit</a>
+      <nav class="primary-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-    </nav>
-    <h1>Hello, World!</h1>
-    <p>
-        HOw are you <b> Davit </b>Davit?
-        I am fine
-    thanks for asking
+      </nav>
+    </div>
+  </header>
 
-    
-    </p>
-    <a href="https://www.youtube.com/watch?v=VuQ4pF_hfag&ab_channel=Codecademy" class="button">See more</a>
-    <!-- existing content... -->
+  <main class="main">
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title">Hello, World!</h1>
+        <p class="hero-subtitle">How are you <strong>Davit</strong>? I am fine — thanks for asking.</p>
+        <div class="hero-actions">
+          <a class="cta-button" href="https://www.youtube.com/watch?v=VuQ4pF_hfag&ab_channel=Codecademy" target="_blank" rel="noopener noreferrer">See more</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-desc">A small collection of images and work highlights.</p>
+        <div class="grid">
+          <div class="card">Placeholder image 1</div>
+          <div class="card">Placeholder image 2</div>
+          <div class="card">Placeholder image 3</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-desc">Feel free to reach out for collaborations or questions.</p>
+        <a class="secondary-button" href="mailto:hello@example.com">Say hello</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© 2025 Davit — Built with care</div>
+  </footer>
 </body>
 </html>
